@@ -1,4 +1,4 @@
 # AgentCoord
 
-Will be released after April 7th, 2024.
+Will be released before April 7th, 2024.
 
