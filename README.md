@@ -14,12 +14,13 @@ alt="System Usage Video" width="800" border="5" /></a>
 
 If you have installed [docker](https://www.docker.com/) and [docker-compose](https://docs.docker.com/compose/) on your machine, we recommend running AgentCoord in docker：
 
-Step 1: Clone our project and start the servers:
+Step 1: Clone the project:
 ```bash
 git clone https://github.com/AgentCoord/AgentCoord.git 
 cd AgentCoord
-docker-compose up
 ```
+Step 2: Config LLM (see [LLM configration](readme.md### LLM configuration)):
+and start the servers 
 Step 2: Open http://localhost:8080/ to use the system.
 
 ### Install on your machine
@@ -31,25 +32,19 @@ Step 1: Clone the project
 git clone https://github.com/AgentCoord/AgentCoord.git 
 cd AgentCoord
 ```
-Step 2: Install required packages for the backend and frontend servers (check readme.md in ./frontend and ./backend folders)
+Step 2: Install required packages for the backend and frontend servers (see readme.md in ./frontend and ./backend folders)
 
-Step 3: Run the backend and frontend servers separately (check readme.md in ./frontend and ./backend folders). 
+Step 3: Run the backend and frontend servers separately (see readme.md in ./frontend and ./backend folders). 
 
 Step 4: Open http://localhost:8080/ to use the system.
 
 ## Configuration 
-```bash
-git clone https://github.com/AgentCoord/AgentCoord.git
-cd AgentCoord
-pip install -r requirements.txt
-```
-### Configuration
-#### LLM configuration
-You can set the configuration (i.e. API base, API key, Model name, Max tokens, Response per minute) for default LLM in config\config.yaml. Currently, we only support OpenAI’s LLMs as the default model. We recommend using gpt-4-0125-preview as the default model (WARNING: the execution process of multiple agents may consume a significant number of tokens). 
+### LLM configuration
+You can set the configuration (i.e. API base, API key, Model name, Max tokens, Response per minute) for default LLM in ./backend/config/config.yaml. Currently, we only support OpenAI’s LLMs as the default model. We recommend using gpt-4-0125-preview as the default model (WARNING: the execution process of multiple agents may consume a significant number of tokens). 
 
 You can switch to a fast mode that uses the Mistral 8×7B model with hardware acceleration by [Groq](https://groq.com/) for the first time in strategy generation to strike a balance of response quality and efficiency. To achieve this, you need to set the FAST_DESIGN_MODE field in the yaml file as True and fill the GROQ_API_KEY field with the api key of [Groq](https://wow.groq.com/).
 
-#### Agent configuration
+### Agent configuration
 Currently, we support config agents by [role-prompting](https://arxiv.org/abs/2305.14688). You can customize your agents by changing the role prompts in AgentRepo\agentBoard_v1.json. We plan to support more methods to customize agents (e.g., supporting RAG, or providing a unified wrapper for customized agents). 
 
 
