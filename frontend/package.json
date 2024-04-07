@@ -1,0 +1,66 @@
+{
+  "name": "agent-coord-frontend",
+  "version": "0.0.1",
+  "scripts": {
+    "reset": "npx rimraf ./**/node_modules",
+    "dev": "modern dev",
+    "build": "modern build",
+    "start": "modern start",
+    "serve": "modern serve",
+    "new": "modern new",
+    "lint": "modern lint",
+    "prepare": "husky install",
+    "upgrade": "modern upgrade"
+  },
+  "engines": {
+    "node": ">=16.18.1"
+  },
+  "lint-staged": {
+    "*.{js,jsx,ts,tsx,mjs,cjs}": [
+      "node --max_old_space_size=8192 ./node_modules/eslint/bin/eslint.js --fix --color --cache --quiet"
+    ]
+  },
+  "eslintIgnore": [
+    "node_modules/",
+    "dist/"
+  ],
+  "dependencies": {
+    "@emotion/react": "^11.11.3",
+    "@emotion/styled": "^11.11.0",
+    "@modern-js/runtime": "2.46.1",
+    "@mui/icons-material": "^5.15.6",
+    "@mui/material": "^5.15.6",
+    "@sttot/api-hooks": "^1.2.5",
+    "d3": "^7.8.5",
+    "localforage": "^1.10.0",
+    "lodash": "^4.17.21",
+    "mobx": "^6.12.0",
+    "mobx-react-lite": "^4.0.6",
+    "re-resizable": "^6.9.11",
+    "react": "~18.2.0",
+    "react-dom": "~18.2.0",
+    "react-markdown": "^9.0.1",
+    "react-rnd": "^10.4.1",
+    "rehype-highlight": "^7.0.0",
+    "rehype-katex": "^7.0.0",
+    "remark-gfm": "^4.0.0",
+    "remark-math": "^6.0.0"
+  },
+  "devDependencies": {
+    "@modern-js-app/eslint-config": "2.46.1",
+    "@modern-js/app-tools": "2.46.1",
+    "@modern-js/eslint-config": "2.46.1",
+    "@modern-js/tsconfig": "2.46.1",
+    "@types/d3": "^7.4.3",
+    "@types/jest": "~29.2.4",
+    "@types/lodash": "^4.14.202",
+    "@types/node": "~16.11.7",
+    "@types/react": "~18.0.26",
+    "@types/react-dom": "~18.0.10",
+    "husky": "~8.0.1",
+    "lint-staged": "~13.1.0",
+    "prettier": "~2.8.1",
+    "rimraf": "~3.0.2",
+    "typescript": "~5.0.4"
+  }
+}

@@ -1,0 +1,12 @@
+## config for default LLM
+OPENAI_API_BASE: ""
+OPENAI_API_KEY: ""
+OPENAI_API_MODEL: "gpt-4-turbo-preview"
+
+## config for fast mode
+FAST_DESIGN_MODE: True
+GROQ_API_KEY: ""
+MISTRAL_API_KEY: ""
+
+## options under experimentation, leave them as Fasle unless you know what it is for
+USE_CACHE: False

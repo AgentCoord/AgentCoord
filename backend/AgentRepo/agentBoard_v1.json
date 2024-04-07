@@ -1,0 +1,102 @@
+[
+    {
+        "Icon": "Abigail_Chen.png",
+        "Name": "Abigail",
+        "Profile": "AI Engineer"
+    },
+    {
+        "Icon": "Jane_Moreno.png",
+        "Name": "Jane",
+        "Profile": "Cybersecurity Specialist"
+    },
+    {
+        "Icon": "Giorgio_Rossi.png",
+        "Name": "Giorgio",
+        "Profile": "Poet"
+    },
+    {
+        "Icon": "Jennifer_Moore.png",
+        "Name": "Jennifer",
+        "Profile": "Linguist"
+    },
+    {
+        "Icon": "Maria_Lopez.png",
+        "Name": "Maria",
+        "Profile": "Philosopher"
+    },
+    {
+        "Icon": "Sam_Moore.png",
+        "Name": "Sam",
+        "Profile": "Ethicist"
+    },
+    {
+        "Icon": "Yuriko_Yamamoto.png",
+        "Name": "Yuriko",
+        "Profile": "Futurist"
+    },
+    {
+        "Icon": "Carlos_Gomez.png",
+        "Name": "Carlos",
+        "Profile": "Language Expert"
+    },
+    {
+        "Icon": "John_Lin.png",
+        "Name": "John",
+        "Profile": "Software Developer"
+    },
+    {
+        "Icon": "Tamara_Taylor.png",
+        "Name": "Tamara",
+        "Profile": "Music Composer"
+    },
+    {
+        "Icon": "Arthur_Burton.png",
+        "Name": "Arthur",
+        "Profile": "Neuroscientist"
+    },
+    {
+        "Icon": "Eddy_Lin.png",
+        "Name": "Eddy",
+        "Profile": "Cognitive Psychologist"
+    },
+    {
+        "Icon": "Isabella_Rodriguez.png",
+        "Name": "Isabella",
+        "Profile": "Science Fiction Writer"
+    },
+    {
+        "Icon": "Latoya_Williams.png",
+        "Name": "Latoya",
+        "Profile": "Historian of Technology"
+    },
+    {
+        "Icon": "Carmen_Ortiz.png",
+        "Name": "Carmen",
+        "Profile": "Robotics Engineer"
+    },
+    {
+        "Icon": "Rajiv_Patel.png",
+        "Name": "Rajiv",
+        "Profile": "Science Educator"
+    },
+    {
+        "Icon": "Tom_Moreno.png",
+        "Name": "Tom",
+        "Profile": "AI Scientist"
+    },
+    {
+        "Icon": "Ayesha_Khan.png",
+        "Name": "Ayesha",
+        "Profile": "Multimedia Artist"
+    },
+    {
+        "Icon": "Mei_Lin.png",
+        "Name": "Mei",
+        "Profile": "Graphic Designer"
+    },
+    {
+        "Icon": "Hailey_Johnson.png",
+        "Name": "Hailey",
+        "Profile": "Legal Expert on AI Law" 
+    }
+]

@@ -1,0 +1,28 @@
+html,
+body,
+body > div#root {
+  margin: 0;
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+  font-family: PingFang SC, Hiragino Sans GB, Microsoft YaHei, Arial, sans-serif;
+}
+
+div#root {
+  position: relative;
+}
+
+.side-resize-bar {
+  transition: all 300ms;
+  z-index: 1000;
+  &:hover,
+  &:active,
+  &:focus {
+    background-color: #0093ffcc;
+  }
+}
+
+/*webkit内核*/
+::-webkit-scrollbar {
+  display: none;
+}

@@ -1,0 +1,7 @@
+Flask==3.0.2
+openai==1.14.2
+PyYAML==6.0.1
+termcolor==2.4.0
+groq==0.4.2
+mistralai==0.1.6
+socksio==1.0.0
