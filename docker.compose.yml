@@ -20,9 +20,13 @@ services:
       dockerfile: Dockerfile
     ports:
       - "8000:8000"
+    environment:
+      - OPENAI_API_BASE=https://api.openai.com
+      - OPENAI_API_KEY=
+      - OPENAI_API_MODEL=gpt-4-turbo-preview
     networks:
       - agentcoord-network
 
 networks:
-  app-network:
+  agentcoord-network:
     driver: bridge
