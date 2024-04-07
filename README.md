@@ -1,6 +1,6 @@
 # AgentCoord: Visually Exploring Coordination Strategy for LLM-based Multi-Agent Collaboration
 <p align="center">
-<a ><img src="https://github.com/bopan3/AgentCoord_Backend/assets/21981916/bbad2f66-368f-488a-af36-72e79fdb6805" alt=" AgentCoord: Visually Exploring Coordination Strategy for LLM-based Multi-Agent Collaboration" width="200px"></a>
+<a ><img src="static/icon.png" alt=" AgentCoord: Visually Exploring Coordination Strategy for LLM-based Multi-Agent Collaboration" width="200px"></a>
 </p>
 AgentCoord is an experimental open-source system to help general users design coordination strategies for multiple LLM-based agents (Research paper forthcoming).
 
