@@ -56,7 +56,7 @@ You can set the configuration in ./backend/config/config.yaml. See [LLM configur
 Currently, we support config agents by [role-prompting](https://arxiv.org/abs/2305.14688). You can customize your agents by changing the role prompts in AgentRepo\agentBoard_v1.json. We plan to support more methods to customize agents (e.g., supporting RAG, or providing a unified wrapper for customized agents) in the future. 
 
 ## More Papers & Projects for LLM-based Multi-Agent Collaboration
-If you’re interested in LLM-based multi-agent collaboration and want more papers & projects for reference, you may check out the corpus collected by us:
+If you’re interested in LLM-based multi-agent collaboration and want more papers & projects for reference, you may check out the [corpus](https://docs.google.com/spreadsheets/d/1HSl4AqIVXhUjZh0pRhz-brzfA7evh20Q/edit?usp=sharing&ouid=112400145401551512954&rtpof=true&sd=true) collected by us:
 
 
 
