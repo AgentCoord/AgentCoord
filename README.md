@@ -19,7 +19,7 @@ Step 1: Clone the project:
 git clone https://github.com/AgentCoord/AgentCoord.git 
 cd AgentCoord
 ```
-Step 2: Config LLM (see [LLM configration](readme.md#LLM configuration)): [链接到 Section 1](README.md#标题名)
+Step 2: Config LLM (see [LLM configration](readme.md#LLM configuration)): [链接到 Section 1](README.md#Configuration)
 and start the servers 
 Step 2: Open http://localhost:8080/ to use the system.
 
