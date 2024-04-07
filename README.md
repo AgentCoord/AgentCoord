@@ -5,7 +5,7 @@
 AgentCoord is an experimental open-source system to help general users design coordination strategies for multiple LLM-based agents (Research paper forthcoming).
 
 ## System Usage
-<a href="https://youtu.be/s56rHJx-eqY" target="_blank"><img src="https://github.com/bopan3/AgentCoord_Backend/assets/21981916/0d907e64-2a25-4bdf-977d-e90197ab1aab" 
+<a href="https://youtu.be/s56rHJx-eqY" target="_blank"><img src="static/videoPreview.png" 
 alt="System Usage Video" width="800" border="5" /></a>
 
 ## Installation
