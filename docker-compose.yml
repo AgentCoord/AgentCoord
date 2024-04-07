@@ -21,9 +21,11 @@ services:
     ports:
       - "8000:8000"
     environment:
-      - OPENAI_API_BASE=https://api.openai.com
+      - OPENAI_API_BASE=htts://api.openai.com
       - OPENAI_API_KEY=
       - OPENAI_API_MODEL=gpt-4-turbo-preview
+      - FAST_DESIGN_MODE=True
+      - GROQ_API_KEY=
     networks:
       - agentcoord-network
 

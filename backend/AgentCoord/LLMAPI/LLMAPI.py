@@ -3,9 +3,6 @@ import openai
 import yaml
 from termcolor import colored
 import os
-from groq import AsyncGroq
-from mistralai.client import MistralClient
-from mistralai.models.chat_completion import ChatMessage
 
 # load config (apikey, apibase, model)
 yaml_file = os.path.join(os.getcwd(), "config", "config.yaml")
@@ -73,6 +70,7 @@ def LLM_Completion(
 
 
 async def _achat_completion_stream_groq(messages: list[dict]) -> str:
+    from groq import AsyncGroq
     client = AsyncGroq(api_key=GROQ_API_KEY)
 
     max_attempts = 5
@@ -103,6 +101,8 @@ async def _achat_completion_stream_groq(messages: list[dict]) -> str:
 
 
 async def _achat_completion_stream_mixtral(messages: list[dict]) -> str:
+    from mistralai.client import MistralClient
+    from mistralai.models.chat_completion import ChatMessage
     client = MistralClient(api_key=MISTRAL_API_KEY)
     # client=AsyncGroq(api_key=GROQ_API_KEY)
     max_attempts = 5

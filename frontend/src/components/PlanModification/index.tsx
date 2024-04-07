@@ -18,7 +18,7 @@ import {
   usePlanModificationContext,
 } from './context';
 import { IPlanTreeNode, globalStorage } from '@/storage';
-import SendIcon from '@/icons/sendIcon';
+import SendIcon from '@/icons/SendIcon';
 
 const RequirementNoteNode: React.FC<{
   data: {

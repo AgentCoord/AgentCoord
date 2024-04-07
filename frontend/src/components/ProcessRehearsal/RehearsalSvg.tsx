@@ -235,7 +235,12 @@ export default observer(
       () =>
         importantLineRects
           .sort((a, b) => {
-            return a.to === b.to ? 0 : a.to === actionIsHovered ? 1 : -1;
+            // eslint-disable-next-line no-nested-ternary
+            return a[0].to === b[0].to
+              ? 0
+              : a[0].to === actionIsHovered
+              ? 1
+              : -1;
           })
           .map(([line, from, to]) => {
             const key = `${line.from}.${line.to}`;

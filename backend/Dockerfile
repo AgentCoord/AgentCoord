@@ -1,4 +1,4 @@
-FROM python:3.11.8-alpine3.18
+FROM python:3.9.19-bookworm
 WORKDIR /app
 EXPOSE 8000/tcp
 
@@ -16,5 +16,4 @@ ENV OPENAI_API_MODEL=gpt-4-turbo-preview
 ENV USE_CACHE=False
 ENV FAST_DESIGN_MODE=True
 ENV GROQ_API_KEY=
-ENV MISTRAL_API_KEY=
 CMD ["python", "server.py", "--port", "8000"]

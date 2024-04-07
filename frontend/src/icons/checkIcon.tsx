@@ -9,7 +9,7 @@ interface CustomIconProps {
 }
 
 // 创建你的自定义SVG图标组件
-const checkIcon: React.FC<CustomIconProps> = ({
+const CheckIcon: React.FC<CustomIconProps> = ({
   size = '100%',
   color = 'currentColor',
 }) => {
@@ -30,4 +30,4 @@ const checkIcon: React.FC<CustomIconProps> = ({
   );
 };
 
-export default checkIcon;
+export default CheckIcon;

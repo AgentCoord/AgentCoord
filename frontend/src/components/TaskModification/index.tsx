@@ -17,7 +17,7 @@ import {
   useTaskModificationContext,
 } from './context';
 import { IAgentActionTreeNode, globalStorage } from '@/storage';
-import SendIcon from '@/icons/sendIcon';
+import SendIcon from '@/icons/SendIcon';
 import { ActionType } from '@/storage/plan';
 
 const RequirementNoteNode: React.FC<{

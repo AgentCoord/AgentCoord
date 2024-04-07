@@ -17,10 +17,10 @@ import _ from 'lodash';
 //   fakeAgentSelections,
 //   fakeCurrentAgentSelection,
 // } from './data/fakeAgentAssignment';
-import CheckIcon from '@/icons/checkIcon';
+import CheckIcon from '@/icons/CheckIcon';
 import AgentIcon from '@/components/AgentIcon';
 import { globalStorage } from '@/storage';
-import SendIcon from '@/icons/sendIcon';
+import SendIcon from '@/icons/SendIcon';
 
 const HtmlTooltip = styled(({ className, ...props }: TooltipProps) => (
   <Tooltip {...props} classes={{ popper: className }} />
