@@ -9,7 +9,35 @@ AgentCoord is an experimental open-source system to help general users design co
 alt="System Usage Video" width="800" border="5" /></a>
 
 ## Installation
-### Installation 
+
+### Install with Docker (Recommended)
+
+If you have installed [docker](https://www.docker.com/) and [docker-compose](https://docs.docker.com/compose/) on your machine, we recommend running AgentCoord in docker：
+
+Step 1: Clone our project and start the servers:
+```bash
+git clone https://github.com/AgentCoord/AgentCoord.git 
+cd AgentCoord
+docker-compose up
+```
+Step 2: Open http://localhost:8080/ to use the system.
+
+### Install on your machine
+
+If you want to install and run AgentCoord on your machine without using docker:
+
+Step 1: Clone the project
+```bash
+git clone https://github.com/AgentCoord/AgentCoord.git 
+cd AgentCoord
+```
+Step 2: Install required packages for the backend and frontend servers (check readme.md in ./frontend and ./backend folders)
+
+Step 3: Run the backend and frontend servers separately (check readme.md in ./frontend and ./backend folders). 
+
+Step 4: Open http://localhost:8080/ to use the system.
+
+## Configuration 
 ```bash
 git clone https://github.com/AgentCoord/AgentCoord.git
 cd AgentCoord
@@ -25,11 +53,6 @@ You can switch to a fast mode that uses the Mistral 8×7B model with hardware ac
 Currently, we support config agents by [role-prompting](https://arxiv.org/abs/2305.14688). You can customize your agents by changing the role prompts in AgentRepo\agentBoard_v1.json. We plan to support more methods to customize agents (e.g., supporting RAG, or providing a unified wrapper for customized agents). 
 
 
-### Launch 
-Execute the following command to launch the system:
-```bash
-python server.py
-```
 ## More Papers & Projects for LLM-based Multi-Agent Collaboration
 If you’re interested in LLM-based multi-agent collaboration and want more papers & projects for reference, you may check out the corpus collected by us:
 
