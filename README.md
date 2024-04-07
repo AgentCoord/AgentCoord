@@ -41,9 +41,7 @@ cd AgentCoord
 
 Step 2: Config LLM (see [LLM configuration (install on your machine)](README.md#llm-configuration-install-on-your-machine)): 
 
-Step 3: Install required packages, then run the backend and frontend servers separately (see readme.md for [frontend](frontend/README.md#Installation and [backend](backend/README.md#Installation)
-
-Step 3: Run the backend and frontend servers separately (see readme.md in ./frontend and ./backend folders). 
+Step 3: Install required packages, then run the backend and frontend servers separately (see readme.md for [frontend](frontend/README.md) and [backend](backend/README.md#Installation)
 
 Step 4: Open http://localhost:8080/ to use the system.
 
