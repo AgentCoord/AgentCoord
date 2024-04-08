@@ -1,1 +1,1 @@
-This folder is for request chache so that we can reproduce the error.
+This folder is for request cache so that we can reproduce the error.
