@@ -13,7 +13,6 @@ colorMap = {
     "agent": [0, 0, 80],
 }
 
-
 def OperateCamelStr(_str: str):
     if " " in _str:
         return _str
