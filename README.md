@@ -2,7 +2,8 @@
 <p align="center">
 <a ><img src="static/icon.png" alt=" AgentCoord: Visually Exploring Coordination Strategy for LLM-based Multi-Agent Collaboration" width="200px"></a>
 </p>
-AgentCoord is an experimental open-source system to help general users design coordination strategies for multiple LLM-based agents (Research paper forthcoming).
+AgentCoord is an experimental open-source system to help general users design coordination strategies for multiple LLM-based agents. [Research paper] 
+ (https://arxiv.org/abs/2404.11943).
 
 ## System Usage
 <a href="https://youtu.be/s56rHJx-eqY" target="_blank"><img src="static/videoPreview.png" 
